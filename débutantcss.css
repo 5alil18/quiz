@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+.disactiver{
+    display: none;
+}
+h1{
+    margin-top: 9px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    color: rgb(255, 166, 0);
+}
+#signe_in{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    text-decoration: none;
+    color: black;
+    padding: 9px;
+    background-color: rgba(255, 166, 0, 0.507);
+    border-radius: 15px;
+}
+#signe_up{
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    text-decoration: none;
+    color: black;
+    padding: 9px;
+    background-color: rgba(255, 166, 0, 0.466);
+    border-radius: 15px;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav li{
+    list-style: none;
+}
+#nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border-radius: 20px;
+}
+#option{
+    display: flex;
+    margin: 20px;
+    margin-top: 30px;
+}
+#option select{
+    padding: 5px;
+    background-color: rgba(0, 128, 0, 0.541);
+    border-radius: 5px;
+}
+#option select option{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#option label{
+    margin-right: 10px;
+    margin-top: 4px;
+}
+#nav_nivo{
+    position: absolute;
+    top: 130px;
+    right: 0px;
+    
+}
+#nav_nivo ul {
+    display: flex;
+    flex-direction: column;
+}
+#nav_nivo ul li{
+    padding: 13px;
+    text-align: center;
+}
+#nav_nivo ul li:hover{
+    background-color: rgba(255, 166, 0, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#nv{
+    display: flex;
+    flex-direction: column;
+}
+
+.orange{
+    background-color: rgba(255, 166, 0, 0.795);
+}
+#conatainer{
+    display: grid;
+    grid-template-columns:repeat(1,1fr) ;
+    justify-items: center;
+    align-items: center;
+    margin-top: 90px;
+
+}
+.qr{
+    
+    background-color: rgb(255, 255, 255,0.5);
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.5);
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    margin-bottom:150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin-bottom: 10px;
+}
+.r{
+    margin: 20px;
+    padding: 9px;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+.r:hover{
+    scale: 1.2;
+}
+
+
+body{
+    background-color: rgba(255, 166, 0, 0.24);
+}
+
+
+#conatiner_2{
+    display: grid;
+    grid-template-columns:repeat(1,1fr) ;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#container_3{
+    display: grid;
+    grid-template-columns:repeat(1,1fr) ;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px
+}
+
+
+ /* le button pour js */
+
+#result{
+    padding: 10px;
+    height: 100px;
+    width: 500px;
+    background-color: rgb(255, 255, 255,0.5);
+    border-radius: 20px;
+    color: black;
+    border: none;
+}
+
+#recmoncer{
+    padding: 10px;
+    background-color: rgb(255, 255, 255,0.5);
+    border-radius: 10px;
+    color: black;
+    border: none;
+    margin-top: 20px;
+    background-color: aqua;
+}
+#recmoncer:hover{
+    scale: 1.1;
+    background-color: white;
+}
+
+/*                  responsive pou rles telefone                 */
+@media screen and (max-width: 600px) {
+    .qr {
+        height: 400px;
+        width: 200px;
+    }
+
+    .r {
+        font-size: 12px;
+    }
+
+    #nav li a {
+        font-size: 14px;
+    }
+    #result{
+        padding: 10px;
+        height: 100px;
+        width:300px ;
+        background-color: rgb(255, 255, 255,0.5);
+        border-radius: 20px;
+        color: black;
+        border: none;
+    }
+}

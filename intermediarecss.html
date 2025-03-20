@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intermediarecss.css">
+    <link rel="stylesheet" href="aos/aos.css">
+    <title>quiz</title>
+</head>
+<body>
+    <div class="orange"></div>
+    <div class="disactiver">
+
+    </div>
+    <div></div>
+    <div id="h">
+        <h1>QUIZ</h1>
+        <a id="signe_in" href="">signe in</a>
+        <a id="signe_up" href="">signe up</a>
+    </div>
+    <div id="header">
+        <div id="nav_parent" >
+            <ul id="nav">
+                <li><a href="index.html" id="html">HTML</a></li>
+                <li><a href="débutantcss.html" id="css">CSS</a></li>
+                <li><a href="débutantjs.html" id="js">Java Script</a></li>
+                <li><a href="débutantreact.html" id="react">react js</a></li>
+                <div id="option">
+                   <img id="logo" src="foto/menu-deroulant.png" alt="" style="height: 40px;position: absolute;top: 83px;right: 0px; cursor: pointer;" >
+                   <div id="nav_nivo" class="disactiver" style="z-index: 10000;">
+                       <ul>
+                        <li><a href="débutantcss.html">Débitant</a></li>
+                        <li><a href="intermediarecss.html">Intermediare</a></li>
+                        <li><a href="professionalcss.js">Professional</a></li>
+                       </ul>     
+                   </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div  id="conatainer">
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel est le sélecteur CSS utilisé pour cibler un élément par son identifiant ?</p>
+            <div class="reponds">
+            <button class="r correct">#id</button>
+            <button class="r false">.id</button>
+            <button class="r false">id</button>
+            <button class="r false">*id</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel est le sélecteur CSS utilisé pour cibler tous les éléments d'un type donné ?</p>
+            <div class="reponds">
+            <button class="r correct">nom_de_balise</button>
+            <button class="r false">#nom_de_balise</button>
+            <button class="r false">.nom_de_balise</button>
+            <button class="r false">*nom_de_balise</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel est l'ordre correct des marges dans la propriété shorthand <code>margin</code> ?</p>
+            <div class="reponds">
+            <button class="r correct">haut, droite, bas, gauche</button>
+            <button class="r false">haut, bas, gauche, droite</button>
+            <button class="r false">gauche, droite, haut, bas</button>
+            <button class="r false">droite, gauche, haut, bas</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quelle propriété CSS est utilisée pour changer la couleur de fond d'un élément ?</p>
+            <div class="reponds">
+            <button class="r correct">background-color</button>
+            <button class="r false">color</button>
+            <button class="r false">background</button>
+            <button class="r false">bgcolor</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quelle propriété CSS est utilisée pour rendre un texte gras ?</p>
+            <div class="reponds">
+            <button class="r correct">font-weight</button>
+            <button class="r false">font-style</button>
+            <button class="r false">text-decoration</button>
+            <button class="r false">font-size</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quelle propriété CSS est utilisée pour aligner un texte au centre ?</p>
+            <div class="reponds">
+            <button class="r correct">text-align</button>
+            <button class="r false">align</button>
+            <button class="r false">vertical-align</button>
+            <button class="r false">justify-content</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quelle unité CSS est relative à la taille de la police de l'élément parent ?</p>
+            <div class="reponds">
+            <button class="r correct">em</button>
+            <button class="r false">px</button>
+            <button class="r false">%</button>
+            <button class="r false">rem</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quelle propriété CSS est utilisée pour ajouter de l'espace à l'intérieur d'un élément ?</p>
+            <div class="reponds">
+            <button class="r correct">padding</button>
+            <button class="r false">margin</button>
+            <button class="r false">border</button>
+            <button class="r false">spacing</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <script src="intermediarecss.js"></script>
+    <script src="aos/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out'
+        });
+    </script>
+</body>
+</html>

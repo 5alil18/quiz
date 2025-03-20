@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="professionaljs.css">
+    <link rel="stylesheet" href="aos/aos.css">
+    <title>quiz</title>
+</head>
+<body>
+    <div class="orange"></div>
+    <div class="disactiver">
+
+    </div>
+    <div></div>
+    <div id="h">
+        <h1>QUIZ</h1>
+        <a id="signe_in" href="">signe in</a>
+        <a id="signe_up" href="">signe up</a>
+    </div>
+    <div id="header">
+        <div id="nav_parent" >
+            <ul id="nav">
+                <li><a href="index.html" id="html">HTML</a></li>
+                <li><a href="débutantcss.html" id="css">CSS</a></li>
+                <li><a href="débutantjs.html" id="js">Java Script</a></li>
+                <li><a href="débutantreact.html" id="react">react js</a></li>
+                <div id="option">
+                   <img id="logo" src="foto/menu-deroulant.png" alt="" style="height: 40px;position: absolute;top: 83px;right: 0px; cursor: pointer;" >
+                   <div id="nav_nivo" class="disactiver" style="z-index: 10000;">
+                       <ul>
+                        <li><a href="débutantjs.html">Débitant</a></li>
+                        <li><a href="intermediarejs.html">Intermediare</a></li>
+                        <li><a href="professionaljs.html">Professional</a></li>
+                       </ul>     
+                   </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div  id="conatainer">
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Que signifie JavaScript ?</p>
+            <div class="reponds">
+            <button class="r correct">Un langage de programmation</button>
+            <button class="r false">Un framework</button>
+            <button class="r false">Une bibliothèque</button>
+            <button class="r false">Un système d'exploitation</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel mot-clé est utilisé pour déclarer une variable en JavaScript ?</p>
+            <div class="reponds">
+            <button class="r correct">let</button>
+            <button class="r false">var</button>
+            <button class="r false">const</button>
+            <button class="r false">Toutes les réponses</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel est le type de données retourné par `typeof null` ?</p>
+            <div class="reponds">
+            <button class="r correct">object</button>
+            <button class="r false">null</button>
+            <button class="r false">undefined</button>
+            <button class="r false">string</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quelle méthode est utilisée pour ajouter un élément à la fin d'un tableau ?</p>
+            <div class="reponds">
+            <button class="r correct">push()</button>
+            <button class="r false">pop()</button>
+            <button class="r false">shift()</button>
+            <button class="r false">unshift()</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel est le résultat de `2 + '2'` en JavaScript ?</p>
+            <div class="reponds">
+            <button class="r correct">"22"</button>
+            <button class="r false">4</button>
+            <button class="r false">NaN</button>
+            <button class="r false">undefined</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quelle méthode est utilisée pour convertir une chaîne en un entier ?</p>
+            <div class="reponds">
+            <button class="r correct">parseInt()</button>
+            <button class="r false">parseFloat()</button>
+            <button class="r false">Number()</button>
+            <button class="r false">toString()</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel mot-clé est utilisé pour créer une fonction en JavaScript ?</p>
+            <div class="reponds">
+            <button class="r correct">function</button>
+            <button class="r false">def</button>
+            <button class="r false">func</button>
+            <button class="r false">lambda</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quelle est la sortie de `console.log(typeof NaN)` ?</p>
+            <div class="reponds">
+            <button class="r correct">number</button>
+            <button class="r false">NaN</button>
+            <button class="r false">undefined</button>
+            <button class="r false">string</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <script src="professionaljs.js"></script>
+    <script src="aos/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out'
+        });
+    </script>
+</body>
+</html>

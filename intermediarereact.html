@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intermediarereact.css">
+    <link rel="stylesheet" href="aos/aos.css">
+    <title>quiz</title>
+</head>
+<body>
+    <div class="orange"></div>
+    <div class="disactiver">
+
+    </div>
+    <div></div>
+    <div id="h">
+        <h1>QUIZ</h1>
+        <a id="signe_in" href="">signe in</a>
+        <a id="signe_up" href="">signe up</a>
+    </div>
+    <div id="header">
+        <div id="nav_parent" >
+            <ul id="nav">
+                <li><a href="index.html" id="html">HTML</a></li>
+                <li><a href="débutantcss.html" id="css">CSS</a></li>
+                <li><a href="débutantjs.html" id="js">Java Script</a></li>
+                <li><a href="débutantreact.html" id="react">react js</a></li>
+                <div id="option">
+                   <img id="logo" src="foto/menu-deroulant.png" alt="" style="height: 40px;position: absolute;top: 83px;right: 0px; cursor: pointer; margin-left: 10px;" >
+                   <div id="nav_nivo" class="disactiver" style="z-index: 10000;">
+                       <ul>
+                        <li><a href="débutantreact.html">Débitant</a></li>
+                        <li><a href="intermediarereact.html">Intermediare</a></li>
+                        <li><a href="professionalreact.html">Professional</a></li>
+                       </ul>     
+                   </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div  id="conatainer">
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel est le rôle du hook useState dans React ?</p>
+            <div class="reponds">
+            <button class="r correct">Gérer l'état local d'un composant</button>
+            <button class="r false">Créer un composant</button>
+            <button class="r false">Gérer les effets de bord</button>
+            <button class="r false">Rendre un composant</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel hook est utilisé pour effectuer des effets de bord dans React ?</p>
+            <div class="reponds">
+            <button class="r correct">useEffect</button>
+            <button class="r false">useState</button>
+            <button class="r false">useContext</button>
+            <button class="r false">useReducer</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Comment passer des données d'un composant parent à un composant enfant dans React ?</p>
+            <div class="reponds">
+            <button class="r correct">Via les props</button>
+            <button class="r false">Via le state</button>
+            <button class="r false">Via useEffect</button>
+            <button class="r false">Via useReducer</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel est le rôle de la méthode setState dans un composant de classe React ?</p>
+            <div class="reponds">
+            <button class="r correct">Mettre à jour l'état du composant</button>
+            <button class="r false">Créer un composant</button>
+            <button class="r false">Rendre un composant</button>
+            <button class="r false">Supprimer un composant</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quelle est la différence entre un composant fonctionnel et un composant de classe dans React ?</p>
+            <div class="reponds">
+            <button class="r correct">Les composants fonctionnels n'ont pas de state natif</button>
+            <button class="r false">Les composants de classe ne peuvent pas utiliser de hooks</button>
+            <button class="r false">Les composants fonctionnels ne peuvent pas être rendus</button>
+            <button class="r false">Les composants de classe ne peuvent pas recevoir de props</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Comment gérer un formulaire dans React ?</p>
+            <div class="reponds">
+            <button class="r correct">En utilisant le state pour contrôler les entrées</button>
+            <button class="r false">En utilisant uniquement des variables globales</button>
+            <button class="r false">En utilisant des classes CSS</button>
+            <button class="r false">En utilisant des fichiers JSON</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel est le rôle du hook useContext dans React ?</p>
+            <div class="reponds">
+            <button class="r correct">Partager des données entre composants sans passer par les props</button>
+            <button class="r false">Gérer l'état local</button>
+            <button class="r false">Effectuer des effets de bord</button>
+            <button class="r false">Créer un composant</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel est le rôle de la méthode render() dans un composant de classe React ?</p>
+            <div class="reponds">
+            <button class="r correct">Rendre le JSX à afficher</button>
+            <button class="r false">Mettre à jour l'état</button>
+            <button class="r false">Gérer les effets de bord</button>
+            <button class="r false">Créer un composant</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <script src="intermediarereact.js"></script>
+    <script src="aos/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out'
+        });
+    </script>
+</body>
+</html>

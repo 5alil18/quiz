@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="professionalreact.css">
+    <link rel="stylesheet" href="aos/aos.css">
+    <title>quiz</title>
+</head>
+<body>
+    <div class="orange"></div>
+    <div class="disactiver">
+
+    </div>
+    <div></div>
+    <div id="h">
+        <h1>QUIZ</h1>
+        <a id="signe_in" href="">signe in</a>
+        <a id="signe_up" href="">signe up</a>
+    </div>
+    <div id="header">
+        <div id="nav_parent" >
+            <ul id="nav">
+                <li><a href="index.html" id="html">HTML</a></li>
+                <li><a href="débutantcss.html" id="css">CSS</a></li>
+                <li><a href="débutantjs.html" id="js">Java Script</a></li>
+                <li><a href="débutantreact.html" id="react">react js</a></li>
+                <div id="option">
+                   <img id="logo" src="foto/menu-deroulant.png" alt="" style="height: 40px;position: absolute;top: 83px;right: 0px; cursor: pointer; margin-left: 10px;" >
+                   <div id="nav_nivo" class="disactiver" style="z-index: 10000;">
+                       <ul>
+                        <li><a href="débutantreact.html">Débitant</a></li>
+                        <li><a href="intermediarereact.html">Intermediare</a></li>
+                        <li><a href="professionalreact.html">Professional</a></li>
+                       </ul>     
+                   </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div id="conatainer">
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel est le but principal de React.js ?</p>
+            <div class="reponds">
+                <button class="r correct">Construire des interfaces utilisateur</button>
+                <button class="r false">Gérer des bases de données</button>
+                <button class="r false">Créer des API REST</button>
+                <button class="r false">Compiler du code JavaScript</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Qu'est-ce qu'un composant en React.js ?</p>
+            <div class="reponds">
+                <button class="r correct">Une partie réutilisable de l'interface utilisateur</button>
+                <button class="r false">Une fonction pour gérer les états</button>
+                <button class="r false">Un fichier CSS</button>
+                <button class="r false">Une bibliothèque externe</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel hook est utilisé pour gérer l'état dans un composant fonctionnel ?</p>
+            <div class="reponds">
+                <button class="r correct">useState</button>
+                <button class="r false">useEffect</button>
+                <button class="r false">useContext</button>
+                <button class="r false">useReducer</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Comment passer des données d'un composant parent à un composant enfant ?</p>
+            <div class="reponds">
+                <button class="r correct">Via les props</button>
+                <button class="r false">Via le state</button>
+                <button class="r false">Via les hooks</button>
+                <button class="r false">Via les classes</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel est le rôle de la méthode render() dans un composant de classe ?</p>
+            <div class="reponds">
+                <button class="r correct">Retourner l'interface utilisateur</button>
+                <button class="r false">Gérer les événements</button>
+                <button class="r false">Mettre à jour le DOM</button>
+                <button class="r false">Déclarer des variables</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quel hook est utilisé pour effectuer des effets de bord dans un composant fonctionnel ?</p>
+            <div class="reponds">
+                <button class="r correct">useEffect</button>
+                <button class="r false">useState</button>
+                <button class="r false">useMemo</button>
+                <button class="r false">useRef</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Quelle commande est utilisée pour créer une nouvelle application React ?</p>
+            <div class="reponds">
+                <button class="r correct">npx create-react-app</button>
+                <button class="r false">npm init react-app</button>
+                <button class="r false">react-create-app</button>
+                <button class="r false">npm install react</button>
+            </div>
+        </div>
+        <div class="qr" data-aos="zoom-in" data-aos-duration="1000">
+            <p>Comment gérer un état complexe dans un composant fonctionnel ?</p>
+            <div class="reponds">
+                <button class="r correct">Avec useReducer</button>
+                <button class="r false">Avec useState</button>
+                <button class="r false">Avec useEffect</button>
+                <button class="r false">Avec useContext</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+    <script src="professionalreact.js"></script>
+    <script src="aos/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out'
+        });
+    </script>
+</body>
+</html>
